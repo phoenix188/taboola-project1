@@ -36,3 +36,37 @@ body
 	background-size: 100%;
 	zoom: 75%;
 }
+
+
+.formulaire
+
+{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+    top: 50px;
+    right: 150px;
+}
+
+.formulaire input
+
+{
+	height: 50px;
+	width: 300px;
+	margin-bottom: 15px;
+}
+
+button
+
+{
+	height: 55px;
+	width: 305px;
+	border-radius: 5px;
+	background-color: #448aff;
+	border: 0.5px solid #6b6f7b;
+	border-radius: 25px;
+	color: white;
+	font-size: 25px;
+}
+
+
