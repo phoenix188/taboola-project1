@@ -10,6 +10,7 @@ body
 
 {
 	display: flex;
+	justify-content: space-between;
 }
 .description h1
 
@@ -34,7 +35,7 @@ body
 	background-repeat: no-repeat;
 	height: 1000px;
 	background-size: 100%;
-	zoom: 75%;
+	zoom: 65%;
 }
 
 
@@ -46,14 +47,20 @@ body
 	position: absolute;
     top: 50px;
     right: 150px;
+    padding: 30px;
+    background-color: rgba(232, 223, 223, 0.4);
 }
 
 .formulaire input
 
 {
-	height: 50px;
-	width: 300px;
-	margin-bottom: 15px;
+	height: 40px;
+    border-radius: 2px;
+    border: 0.5px solid white;
+    width: 280px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    padding-left: 8px;
 }
 
 button
@@ -62,11 +69,11 @@ button
 	height: 55px;
 	width: 305px;
 	border-radius: 5px;
-	background-color: #448aff;
-	border: 0.5px solid #6b6f7b;
+	background-color: #f10303;
+	border: 0.25px solid #6b6f7b;
 	border-radius: 25px;
 	color: white;
-	font-size: 25px;
+	font-size: 23px;
 }
 
 
