@@ -3,7 +3,7 @@ body
 {
 	margin: 0px;
 	font-family: 'Lato', sans-serif;
-
+	background-color: rgb(242, 242, 242);
 }
 
 .description
@@ -75,5 +75,61 @@ button
 	color: white;
 	font-size: 23px;
 }
+
+button:hover
+
+{
+	background-color: black;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+article
+
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.sentence-center
+
+{
+	margin-top: 33px;
+	margin-bottom: 33px;
+	text-align: center;
+}
+
+.img-aside
+
+{
+	display: flex;	
+}
+
+.img-aside img
+
+{
+	border-radius: 3px;
+}
+
+
+.img-aside p
+
+{
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
