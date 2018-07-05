@@ -3,7 +3,7 @@ body
 {
 	margin: 0px;
 	font-family: 'Lato', sans-serif;
-	background-color: rgb(242, 242, 242);
+	background-color: rgb(252, 252, 252);
 }
 
 .description
@@ -102,7 +102,9 @@ article
 .img-aside
 
 {
-	display: flex;	
+	display: flex;
+	
+
 }
 
 .img-aside img
